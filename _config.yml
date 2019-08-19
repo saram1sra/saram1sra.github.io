@@ -286,10 +286,10 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: links
+      type: docs
     values:
       sidebar: 
-        nav: "links"
+        nav: "docs"
       # layout: single
       # author_profile: true
       # read_time: true
