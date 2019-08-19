@@ -2,10 +2,10 @@
 main:
   - title: "About Me"
     url: /
-  - title: "H1"
-    url: /#head_1
-  - title: "H2"
-    url: /#head_2
+  # - title: "H1"
+  #   url: /#head_1
+  # - title: "H2"
+  #   url: /#head_2
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

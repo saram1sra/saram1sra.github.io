@@ -20,7 +20,7 @@ title                    : "Sara Misra"
 title_separator          : "-"
 subtitle                 : "Intelligent Robots" # site tagline that appears below site title in masthead
 name                     : "Sara Misra"
-description              : "An amazing website."
+description              : "Personal webpage of Sara Misra"
 url                      : "https://saram1sra.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/saram1sra/saram1sra.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
