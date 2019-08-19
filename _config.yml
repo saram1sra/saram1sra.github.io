@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Sara Misra"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Roboticist @ CMU "
   location         : "Pittsburgh, PA"
   email            :
   links:
@@ -143,10 +143,10 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/saram1sra"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://github.com/saram1sra"
+      # url: 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/saram1sra/"
