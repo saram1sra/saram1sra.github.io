@@ -286,11 +286,13 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: links
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      sidebar: 
+        nav: "links"
+      # layout: single
+      # author_profile: true
+      # read_time: true
+      # comments: # true
+      # share: true
+      # related: true
