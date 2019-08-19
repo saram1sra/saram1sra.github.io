@@ -1,5 +1,5 @@
 # main links
-links:
+main:
   - title: "About Me"
     url: /
   # - title: "About"
@@ -10,3 +10,7 @@ links:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs: 
+  - title: "About Me"
+    url: /
