@@ -131,14 +131,14 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/saram1sra/"
-    - label: 
+    - label: " "
       icon: 
       url: 
-    - label: 
+    - label: " "
       icon: 
       url: 
     - label: "About Me"
-      icon: "fab fa-fw fa-file"
+      icon: "fas fa-file"
       url: /
 
 # Site Footer
