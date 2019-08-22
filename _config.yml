@@ -132,12 +132,12 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/saram1sra/"
     - label: " "
-      icon: 
-      url: 
+      icon: " "
+      url: " "
     - label: " "
-      icon: 
-      url: 
-    - label: "About Me"
+      icon: " "
+      url: " "
+    - label: "Resume"
       icon: "fas fa-file"
       url: /
 
