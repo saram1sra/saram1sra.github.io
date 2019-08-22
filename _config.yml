@@ -137,6 +137,12 @@ author:
     - label: " "
       icon: " "
       url: " "
+    - label: "About Me"
+      icon: " "
+      url: /
+    - label: "Courses"
+      icon: " "
+      url: /courses/
     - label: "Resume"
       icon: "fas fa-file"
       url: /
