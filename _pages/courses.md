@@ -8,7 +8,7 @@ permalink: /courses/
 ## B.S. in Electrical and Computer Engineering  2016-2019
 [18-578][18_578] Mechatronic Design\\
 [18-491][18_491] Fundamentals of Signal Processing \\
-[18-320][18_320] Microelectronic Circuits 
+[18-320][18_320] Microelectronic Circuits \\
 [18-370][18_370] Fundamentals of Control\\
 [18-290][18_290] Signals and Systems\\
 [18-240][18_240] Structure and Design of Digital Systems\\
