@@ -9,7 +9,7 @@ html {
   box-sizing: border-box;
   background-color: $background-color;
   font-size: 14px;
-  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  // font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
   
 
   @include breakpoint($medium) {
