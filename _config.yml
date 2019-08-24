@@ -145,7 +145,7 @@ author:
       url: /courses/
     - label: "Experience"
       icon: " "
-      url:  /#exp/
+      url:  /#exp
     - label: "Resume"
       icon: "fas fa-file"
       url: /
