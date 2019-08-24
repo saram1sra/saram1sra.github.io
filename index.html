@@ -11,10 +11,16 @@ author_profile: true
     }
     heading {
     
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
     margin: 0px;
     color: #11999e;
+    }
+    head_under{
+    font-size: 14px; 
+    margin: 0px; 
+    padding:0px;
+    display: block;
     }
     
 </style>
@@ -25,7 +31,7 @@ author_profile: true
 <p style="font-size:16px;">
 I am a Master's student at the <a href='https://www.ri.cmu.edu/'>Robotics Institute</a>, 
 School of Computer Science, Carnegie Mellon University, 
-working with <a href='https://en.wikipedia.org/wiki/Howie_Choset'>Howie Choset</a> and <a href='https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/'> Matthew Travers</a>. 
+working with <a href='https://en.wikipedia.org/wiki/Howie_Choset'>Prof. Howie Choset</a> and <a href='https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/'>Prof. Matthew Travers</a>. 
 I am  working on deep-learning to optimize autonomous exploration and navigation with limited perception in unknown dynamic/static environments.
 <br>
 <br>
@@ -58,7 +64,7 @@ Broadly in  machine learning, computer vision, planning and systems engineering 
 <h2>Experience</h2> 
 
 <heading>Boeing Blaser Project | Carnegie Mellon University & Boeing Collaboration &nbsp; May 2019 – Present </heading>
-<p style="font-size: 14px; margin: 0px; padding:0px">Graduate Research Assistant | Howie Choset </p>
+<head_under>Graduate Research Assistant | Prof. Howie Choset </head_under>
 <a href="javascript:toggleblock('bb_abs')" >abstract</a> | 
 <a href="http://biorobotics.ri.cmu.edu/research/ConfinedSpacePerception.php" >webpage</a> | 
 <a href="" >slides</a> 
@@ -73,7 +79,7 @@ Redesigned algorithm to speed up procedure run-time by 5x, over &lt30 images for
 </i></p>
 
 <heading>Boeing Sealant Application | Carnegie Mellon University & Boeing Collaboration &nbsp; May 2017 – May 2019 </heading>
-<p style="font-size: 14px; margin: 0px; padding:0px">Motion Software Lead | Howie Choset </p>
+<p style="font-size: 14px; margin: 0px; padding:0px">Motion Software Lead | Prof. Howie Choset </p>
 <a href="javascript:toggleblock('bs_abs')" >abstract</a> | 
 <a href="http://biorobotics.ri.cmu.edu/research/ConfinedSpaceManipulator.php" >webpage</a> | 
 <a href="" >slides</a> 
@@ -114,7 +120,7 @@ Implemented tracking and following of finger using short-range high-precision cu
 
 
 <heading>FOXCONN IMR Fast-Vision | Carnegie Mellon University & FOXCONN &nbsp; May – Aug 2017</heading> 
-<p style="font-size: 14px; margin: 0px; padding:0px">Research Assistant</p>
+<head_under>Research Assistant</head_under>
 <a href="javascript:toggleblock('fs_abs')" >abstract</a> |
 <a href="assets/files/slides/" >slides</a> |
 <a href="assets/images/" >media</a>
@@ -130,9 +136,8 @@ and dynamic parameterization with ROS. Analyzed and selected apt off-the-shelf O
 </i></p>
 
 <heading>Summer Undergraduate Research Fellowship &nbsp; May – Aug 2017</heading>
-<p style="font-size: 14px; margin: 0px; padding:0px">Research Assistant | Howie Choset & Guillaume Satoretti</p>
+<head_under>Research Assistant | Prof. Howie Choset & Dr. Guillaume Satoretti</head_under>
 <a href="javascript:toggleblock('surf_abs')" >abstract</a>
-
 <p align="justify"> <i id="surf_abs">
 Awarded the Summer Undergraduate Research Fellowship 2017 for “Stable Stair Climbing for a Hexapod using Onboard Sensing” under Prof. Howie Choset and Dr. Guillaume. 
 Researched and developed a gait, using Central Pattern Generators, for a hexapod robot in general terrain that is parameterizable by dimensions of obstacle extracted from camera feedback to make an ‘intuitive’ seamless 'walk to climb' transition increasing mobility, particularly for the introduction of legged companion robots in homes. <br>
@@ -140,20 +145,40 @@ Awarded the Boeing Blue Skies Award: GameChanger at the Meeting of the Minds Sym
 <br>
 <b>Software</b>: Python, ROS<br>
 <b>Hardware</b>: Hexapod, Kinect <br>
-<b>Key Concepts</b>: cpgs, computer vision
-
+<b>Key Concepts</b>: cpgs, computer vision, dynamic motion planning
 </i></p>
 
+<heading>Gearless Omni-directional Acceleration-vectoring Topology Project &nbsp; Dec 2016 – Jun 2017 </heading>
+<head_under>Undergraduate Researcher | Prof. Matt Travers</head_under>
+<a href="javascript:toggleblock('goat_abs')" >abstract</a>
+<p align="justify"> <i id="goat_abs">
+Developed ROS teleoperation of a robotic omni-directional leg to control motion and jump over obstacles.
+Built model and simulation for testing scenarios in physics simulator Gazebo
+<br>
+<b>Software</b>: Python, XML, ROS, Gazebo<br>
+<b>Hardware</b>: A Quasi-Direct Drive Legged Robot <br>
+<b>Key Concepts</b>: simulation, teleoperation   
+</i></p>
 
-
-
-
+<heading>Series Elastic Actuator Robots &nbsp;  Sep 2016 – Feb 2017</heading>
+<head_under>Undergraduate Researcher | BioRobotics Lab</head_under>
+<a href="javascript:toggleblock('sea_abs')" >abstract</a>
+<p align="justify"><i id="sea_abs">
+Investigated methods for freeing the Snake Robot from a trapped position in uneven terrain and move towards initial heading using signal analysis on in-built torque sensor readings. <br>
+Verified the heuristic we proposed to detect the jammed state by detecting repetitive signals from the sensor feedback in the robot links. The low-cost solution implemented as an interim solution was to reduce speed, as the robot was very unlikely to get trapped at lower speeds.<br><br>
+Worked on optimizing LED driver for housing more components or scaling down Snake robot for constrained environments.
+        </i></p>
 
 </div>
 
 
 <!-- Init hideblock for toggle -->
-
+<script xml:space="preserve" language="JavaScript">
+        hideblock('bb_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+        hideblock('bs_abs');
+</script>
 <script xml:space="preserve" language="JavaScript">
     hideblock('am_abs');
  </script>
@@ -164,11 +189,8 @@ Awarded the Boeing Blue Skies Award: GameChanger at the Meeting of the Minds Sym
         hideblock('surf_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-        hideblock('bb_abs');
+        hideblock('goat_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-        hideblock('bs_abs');
-</script>
-<script xml:space="preserve" language="JavaScript">
-        hideblock('surf_abs');
+        hideblock('sea_abs');
 </script>
