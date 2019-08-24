@@ -22,6 +22,12 @@ author_profile: true
     padding:0px;
     display: block;
     }
+    toggle_down{
+        font-size:16px; 
+        text-align: justify;
+        font-weight: italic;
+        
+    }
       
 </style>
 
@@ -60,15 +66,15 @@ Broadly in  machine learning, computer vision, planning and systems engineering 
 </ul>
 </div>
 
-<div id="exp">
+<div id="experience">
 <h2>Experience</h2> 
 
-<heading>Boeing Blaser Project | Carnegie Mellon University & Boeing Collaboration &nbsp; May 2019 – Present </heading>
-<head_under>Graduate Research Assistant | Prof. Howie Choset </head_under>
+<heading>Boeing Blaser Project | Carnegie Mellon University & Boeing Collaboration </heading>
+<head_under>Graduate Research Assistant | Prof. Howie Choset <span align="right">May 2019 – Present</span></head_under>
 <a href="javascript:toggleblock('bb_abs')" style="font-size:14px">abstract</a> | 
 <a href="http://biorobotics.ri.cmu.edu/research/ConfinedSpacePerception.php" style="font-size:14px">webpage</a> | 
 <a href=/ style="font-size:14px">slides</a> 
-<p align="justify"> <i id="bb_abs">
+<toggle_down id="bb_abs">
 Designing VIO algorithms for running onboard an i.MX RT platform for developing a standalone miniature size, ultra-short range, and high accuracy laser-camera sensor module for applications in confined space. <br><br>
 Developed a unified calibration procedure for simultaneous non-linear optimization on 9 parameters of camera intrinsics, laser-to-camera and hand-eye calibration.
 Redesigned algorithm to speed up procedure run-time by 5x, over &lt30 images for 640x480 and 1280x960 camera resolutions. 
@@ -76,14 +82,14 @@ Redesigned algorithm to speed up procedure run-time by 5x, over &lt30 images for
 <b>Software</b>: C/C++, Python, Matlab, ROS<br>
 <b>Hardware</b>: Blaser Sensor, UR5e<br>
 <b>Key Concepts</b>: camera calibration, hand-eye calibration, camera-laser calibration, visual-inertial odometry, short-range high-precision perception
-</i></p>
+</toggle_down><br> <br>
 
 <heading>Boeing Sealant Application | Carnegie Mellon University & Boeing Collaboration &nbsp; May 2017 – May 2019 </heading>
 <head_under>Motion Software Lead | Prof. Howie Choset </head_under>
 <a href="javascript:toggleblock('bs_abs')" style="font-size:14px" >abstract</a> | 
-<a href="http://biorobotics.ri.cmu.edu/research/ConfinedSpaceManipulator.php" style="font-size:14px">webpage</a> | 
-<a href=/ style="font-size:14px" >slides</a> 
-<p align="justify"> <i id="bs_abs">
+<a href="http://biorobotics.ri.cmu.edu/research/ConfinedSpaceManipulator.php" style="font-size:16px">webpage</a> | 
+<a href=/ style="font-size:16px" >slides</a> 
+<toggle_down id="bs_abs">
 Developed and implemented the closed-loop, high-precision motion control infrastructure and software with computer vision feedback for Boeing APADA Arm, automating sealant application and inspection on sub-millimeter cracks in aircraft wing bays. This solution reduces human error and improves worker health-safety as the sealant is noxious.<br><br>
 Developed multiple trajectories for robot arm, based on permutations and combinations in shapes of cones and spirals to maximize scanning coverage area of the mounted sensor and nozzle of robot arm for sealant application. <br><br>
 Implemented tracking and following of finger using short-range high-precision custom laser-camera sensor mounted on UR5e to demonstrate the high-precision closed loop control of the sensor and robot arm for confined space perception and manipulation. 
@@ -91,7 +97,7 @@ Implemented tracking and following of finger using short-range high-precision cu
 <b>Software</b>: C/C++, ROS<br>
 <b>Hardware</b>: Custom 5DOF Arm, UR5e, Blaser sensor<br>
 <b>Key Concepts</b>: kinematics, trajectory generation, motion planning, obstacle navigation, short-range computer vision
-</i></p>
+</toggle_down><br> <br>
 
 <heading>Amazon Robotics | Advanced Robotics Perception Team &nbsp; May – Aug 2018</heading>
 <head_under>Advanced Robotics Intern | Chuck Llyod </head_under>
@@ -100,7 +106,7 @@ Implemented tracking and following of finger using short-range high-precision cu
 <a href=/ style="font-size:14px" >media</a> 
 
 <!-- Content to show after toggle -->
-<p align="justify" style="font-size: 14px"> <i id="am_abs">
+<toggle_down id="am_abs">
     Developed a computer vision based solution to the multifaceted issue of failed picks in the pick and place pipeline to stow away the items that come into the Amazon warehouse. I investigated and analyzed the existing pipeline to pinpoint the problem, incorrectly perceived 3D geometry caused by “holes” of missing data. This occured due to occlusion, reflectance, and the scanning angle of the static multi-sensor workspace rig.
     Thus my solution pipeline addressed this problem by: <br><br>
   
@@ -115,7 +121,7 @@ Implemented tracking and following of finger using short-range high-precision cu
     <b>Software</b>: C/C++, ROS<br>
     <b>Hardware</b>: IntelRealsense D410, Ensenso, UR10<br>
     <b>Key Concepts</b>: sensor-fusion, motion planning, computer vision, point cloud to image reprojection
-</i></p>
+</toggle_down><br> <br>
 
 
 
@@ -125,7 +131,7 @@ Implemented tracking and following of finger using short-range high-precision cu
 <a href="assets/files/slides/" style="font-size:14px">slides</a> |
 <a href="assets/images/" style="font-size:14px">media</a>
 
-<p align="justify" style="font-size: 14px"> <i id="fs_abs">
+<toggle_down id="fs_abs">
 Developed in-lab low-cost optical-flow sensor, containing two high fps cameras and an IMU, for high-speed localization of FOXCONN modular robots for multi-purpose use in dense industrial environment with serial communication 
 and dynamic parameterization with ROS. Analyzed and selected apt off-the-shelf OEM barcode scanners, to develop this sensor
 <br>
@@ -133,12 +139,12 @@ and dynamic parameterization with ROS. Analyzed and selected apt off-the-shelf O
 <b>Hardware</b>: IMU, Monocular Cameras<br>
 <b>Key Concepts</b>: optical-flow, sensor-fusion, localization
 
-</i></p>
+</toggle_down><br> <br>
 
 <heading>Summer Undergraduate Research Fellowship &nbsp; May – Aug 2017</heading>
 <head_under>Research Assistant | Prof. Howie Choset & Dr. Guillaume Satoretti</head_under>
 <a href="javascript:toggleblock('surf_abs')"style="font-size:14px" >abstract</a>
-<p align="justify"> <i id="surf_abs">
+<toggle_down id="surf_abs">
 Awarded the Summer Undergraduate Research Fellowship 2017 for “Stable Stair Climbing for a Hexapod using Onboard Sensing” under Prof. Howie Choset and Dr. Guillaume. 
 Researched and developed a gait, using Central Pattern Generators, for a hexapod robot in general terrain that is parameterizable by dimensions of obstacle extracted from camera feedback to make an ‘intuitive’ seamless 'walk to climb' transition increasing mobility, particularly for the introduction of legged companion robots in homes. <br>
 Awarded the Boeing Blue Skies Award: GameChanger at the Meeting of the Minds Symposium 2018.
@@ -146,30 +152,40 @@ Awarded the Boeing Blue Skies Award: GameChanger at the Meeting of the Minds Sym
 <b>Software</b>: Python, ROS<br>
 <b>Hardware</b>: Hexapod, Kinect <br>
 <b>Key Concepts</b>: cpgs, computer vision, dynamic motion planning
-</i></p>
+</toggle_down><br> <br>
 
 <heading>Gearless Omni-directional Acceleration-vectoring Topology Project &nbsp; Dec 2016 – Jun 2017 </heading>
 <head_under>Undergraduate Researcher | Prof. Matt Travers</head_under>
 <a href="javascript:toggleblock('goat_abs')" style="font-size:14px">abstract</a>
-<p align="justify"> <i id="goat_abs">
+<toggle_down id="goat_abs">
 Developed ROS teleoperation of a robotic omni-directional leg to control motion and jump over obstacles.
 Built model and simulation for testing scenarios in physics simulator Gazebo
 <br>
 <b>Software</b>: Python, XML, ROS, Gazebo<br>
 <b>Hardware</b>: A Quasi-Direct Drive Legged Robot <br>
 <b>Key Concepts</b>: simulation, teleoperation   
-</i></p>
+</toggle_down><br> <br>
 
 <heading>Series Elastic Actuator Robots &nbsp;  Sep 2016 – Feb 2017</heading>
 <head_under>Undergraduate Researcher | BioRobotics Lab</head_under>
 <a href="javascript:toggleblock('sea_abs')" style="font-size:14px">abstract</a>
-<p align="justify"><i id="sea_abs">
+<toggle_down id="sea_abs">
 Investigated methods for freeing the Snake Robot from a trapped position in uneven terrain and move towards initial heading using signal analysis on in-built torque sensor readings. <br>
 Verified the heuristic we proposed to detect the jammed state by detecting repetitive signals from the sensor feedback in the robot links. The low-cost solution implemented as an interim solution was to reduce speed, as the robot was very unlikely to get trapped at lower speeds.<br><br>
 Worked on optimizing LED driver for housing more components or scaling down Snake robot for constrained environments.
-        </i></p>
+</toggle_down><br> <br>
 
 </div>
+
+<div id="project">
+
+
+
+
+
+</div>
+
+
 
 
 <!-- Init hideblock for toggle -->
