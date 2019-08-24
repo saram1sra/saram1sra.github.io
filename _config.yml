@@ -143,9 +143,9 @@ author:
     - label: "Courses"
       icon: " "
       url: /courses/
-    - label: " "
+    - label: "Experience"
       icon: " "
-      # url:  " "
+      url:  /#exp/
     - label: "Resume"
       icon: "fas fa-file"
       url: /
