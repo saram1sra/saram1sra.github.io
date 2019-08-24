@@ -14,7 +14,7 @@ author_profile: true
 <p style="font-size:16px;">
 I am a Master's student at the <a href='https://www.ri.cmu.edu/'>Robotics Institute</a>, 
 School of Computer Science, Carnegie Mellon University, 
-working with <a href='https://en.wikipedia.org/wiki/Howie_Choset'>Howie Choset</a> and <a href='https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/'> Matthew Travers </a>. 
+working with <a href='https://en.wikipedia.org/wiki/Howie_Choset'>Howie Choset</a> and <a href='https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/'> Matthew Travers</a>. 
 I am  working on deep-learning to optimize autonomous exploration and navigation with limited perception in unknown dynamic/static environments.
 <br>
 <br>
@@ -47,34 +47,53 @@ Broadly in  machine learning, computer vision, planning and systems engineering 
 <h2> Work </h2> 
 <p style="font-size:16px">
 
-<h4>Amazon Robotics</h4> 
-Advanced Robotics Perception Team | Advanced Robotics Intern 
-<br>
+<p style="font-size: 1.17em"><b>Amazon Robotics | Advanced Robotics Perception Team &nbsp; May – Aug 2018</b></p> 
 <!-- Text with Toggle -->
-<a href="javascript:toggleblock('am_abs')" >abstract</a> 
+<a href="javascript:toggleblock('am_abs')" >abstract</a> |
+<a href="" >media</a> 
+
 
 <!-- Content to show after toggle -->
 <p align="justify"> <i id="am_abs">
-    I developed a computer vision based solution to the multifaceted issue of failed picks in the pick and place pipeline to stow away the items that come into the Amazon warehouse. I investigated and analyzed the existing pipeline to pinpoint the problem, incorrectly perceived 3D geometry caused by “holes” of missing data. This occured due to occlusion, reflectance, and the scanning angle of the static multi-sensor workspace rig.
-    Thus my solution pipeline addressed this problem by: 
+    Developed a computer vision based solution to the multifaceted issue of failed picks in the pick and place pipeline to stow away the items that come into the Amazon warehouse. I investigated and analyzed the existing pipeline to pinpoint the problem, incorrectly perceived 3D geometry caused by “holes” of missing data. This occured due to occlusion, reflectance, and the scanning angle of the static multi-sensor workspace rig.
+    Thus my solution pipeline addressed this problem by: <br><br>
   
-    <li>Identifying and locating the holes through angle criterion</li>
-    <li>Validation of missing data versus physical hole</li>
-    <li>Prioritizing filling order and executing re-planned picking path for scanning</li>
+    • Identifying and locating the holes through angle criterion<br>
+    • Validation of missing data versus physical hole<br>
+    • Prioritizing filling order and executing re-planned picking path for scanning<br>
     <br>
     The solution implemented is based on the hybrid technique, as a pipeline using a sensor mounted on the end-effector of the robot to fill in data after detecting and confirming the existence of an area with missing data from image and point cloud space.<br><br>  
     Implemented the static sensors camera rig and environmental constraints of as-is implementation on the workstation; designed and 3D printed end-of-arm sensor mount. Demonstrated integrated modular pipeline on physical system.<br><br> 
     Also developed an alternate solution using classical techniques through PCL of surface reconstruction including triangulation, poisson reconstruction, voxel dilation etc; Pitched alternate solution for fitting shape primitives to approximate shape and used machine learning models to predict the geometry of the object.<br><br>
-    Software: C/C++, ROS<br>
-    Hardware: IntelRealsense D410, Ensenso, UR10<br>
-    Key Concepts: Sensor Fusion, Motion Planning, Computer Vision, Point Cloud to image reprojection
+    
+    <b>Software</b>: C/C++, ROS<br>
+    <b>Hardware</b>: IntelRealsense D410, Ensenso, UR10<br>
+    <b>Key Concepts</b>: sensor-fusion, motion planning, computer vision, point cloud to image reprojection
 </i></p>
+<br>
+<p style="font-size: 1.17em"><b>FOXCONN IMR | Carnegie Mellon University & FOXCONN </b></p> 
+Research Assisstant <br>
+<a href="javascript:toggleblock('fs_abs')" >abstract</a> |
+<a href="assets/files/slides/" >slides</a> |
+<a href="assets/images/" >media</a>
 
+<p align="justify"> <i id="fs_abs">
+        Developed in-lab low-cost optical-flow sensor, containing two high fps cameras and an IMU, for high-speed localization of FOXCONN modular robots for multi-purpose use in dense industrial environment with serial communication 
+        and dynamic parameterization with ROS. Analyzed and selected apt off-the-shelf OEM barcode scanners, to develop this sensor
+        <br>
+        <b>Software</b>: Arduino, C/C++, ROS<br>
+        <b>Hardware</b>: IMU, Monocular Cameras<br>
+        <b>Key Concepts</b>: optical-flow, sensor-fusion, localization
 
+</i></p>
+<br>
+<p style="font-size: 1.17em"><b>Summer Undergraduate Research Fellowship &nbsp; May – Aug 2017</b></p>
+<a href="javascript:toggleblock('surf_abs')" >abstract</a>
 
-
-
-
+<p align="justify"> <i id="surf_abs"></i>
+Awarded the Summer Undergraduate Research Fellowship 2017 for “Stable Stair Climbing for a Hexapod using Onboard Sensing” under Prof. Howie Choset and Dr. Guillaume. 
+Researched and developed a gait, using Central Pattern Generators, for a hexapod robot in general terrain that is parameterizable by dimensions of obstacle extracted from camera feedback to make an ‘intuitive’ seamless 'walk to climb' transition increasing mobility, particularly for the introduction of legged companion robots in homes. <br>
+Awarded the Boeing Blue Skies Award: GameChanger at the Meeting of the Minds Symposium 2018.
 
 </p>
 </div>
@@ -85,3 +104,6 @@ Advanced Robotics Perception Team | Advanced Robotics Intern
 <script xml:space="preserve" language="JavaScript">
     hideblock('am_abs');
  </script>
+<script xml:space="preserve" language="JavaScript">
+        hideblock('fs_abs');
+</script>
