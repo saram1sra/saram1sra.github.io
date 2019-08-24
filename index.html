@@ -41,26 +41,26 @@ Broadly in  machine learning, computer vision, planning and systems engineering 
 </ul>
 </div>
 <style>
-        .hidden {
-            display: none;
-        }
-        .unhidden {
-            display: block;
-        }
-        </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-$(document).ready(function () {
-    $("#toggle").click(function () {
-    $("div").toggleClass("hidden unhidden");
-    });
-});
+.toggle-content {
+	display: none;
+}
+
+.toggle-content.is-visible {
+	display: block;
+}
+</style>
+<script src="toggle.js">
 </script>
 
 
 <div id="work"> 
 <h2> Work </h2> 
-<li><a id="toggle">Toggle Edit Mode</a></li>
-
-<div class="hidden rightButton">hello</div>
+<p>
+        <a class="toggle" href="#example">Toggle Div</a>
+      </p>
+      
+      <div class="toggle-content" id="example">
+        Here's some text we want to toggle visibility of. Let's do it!
+      </div>
 
 </div>
