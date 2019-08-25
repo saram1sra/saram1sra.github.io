@@ -139,7 +139,7 @@ author:
       url: ""
     - label: "About Me"
       icon: " "
-      url: /
+      url: /#about_me
     
     - label: "Experience"
       icon: " "
