@@ -1,20 +1,15 @@
 # main links
 main:
-  # - title: "About Me"
-  #   url: /
-  # - title: "H1"
-  #   url: /#head_1
-  # - title: "H2"
-  #   url: /#head_2
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Courses"
-  #   url: /courses/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-
-docs: 
   - title: "About Me"
+    url: /#about_me
+  - title: "Experience"
+    url: /#experience
+  - title: "Projects"
+    url: /#project
+  - title: "Courses"
+    url:  /courses/
+  - title: "Activities"
+    url: /activities/
+  - title: "CV"
     url: /
-  - title: "Now Me"
-    url: /
+
