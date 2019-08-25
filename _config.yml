@@ -150,6 +150,9 @@ author:
     - label: "Courses"
       icon: " "
       url: /courses/
+    - label: "Activities"
+      icon: " "
+      url: /activities/
     - label: "CV"
       icon: "fas fa-file"
       url: /
