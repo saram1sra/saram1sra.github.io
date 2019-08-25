@@ -140,16 +140,17 @@ author:
     - label: "About Me"
       icon: " "
       url: /
-    - label: "Courses"
-      icon: " "
-      url: /courses/
+    
     - label: "Experience"
       icon: " "
       url:  /#experience
     - label: "Projects"
       icon: " "
       url:  /#project
-    - label: "Resume"
+    - label: "Courses"
+      icon: " "
+      url: /courses/
+    - label: "CV"
       icon: "fas fa-file"
       url: /
 

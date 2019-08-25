@@ -114,19 +114,19 @@ Implemented tracking and following of finger using short-range high-precision cu
 
 <!-- Content to show after toggle -->
 <toggle_down id="am_abs">
-    <br>
-    Developed a computer vision based solution to the multifaceted issue of failed picks in the pick and place pipeline to stow away the items that come into the Amazon warehouse. I investigated and analyzed the existing pipeline to pinpoint the problem, incorrectly perceived 3D geometry caused by “holes” of missing data. This occured due to occlusion, reflectance, and the scanning angle of the static multi-sensor workspace rig.
-    Thus my solution pipeline addressed this problem by: <br>
-    • Identifying and locating the holes through angle criterion<br>
-    • Validation of missing data versus physical hole<br>
-    • Prioritizing filling order and executing re-planned picking path for scanning<br>
-    The solution implemented is a hybrid pipeline using a sensor mounted on the end-effector of the robot to fill in data after detecting and confirming the existence of an area with missing data from image and point cloud space.<br>  
-    Implemented the static sensors camera rig and environmental constraints of as-is implementation on the workstation; designed and 3D printed end-of-arm sensor mount. Demonstrated integrated modular pipeline on physical system.<br>
-    Also developed an alternate solution using classical techniques through PCL of surface reconstruction including triangulation, poisson reconstruction, voxel dilation etc; Pitched alternate solution for fitting shape primitives to approximate shape and used machine learning models to predict the geometry of the object.<br>
-    
-    <b>Software</b>: C/C++, ROS<br>
-    <b>Hardware</b>: IntelRealsense D410, Ensenso, UR10<br>
-    <b>Key Concepts</b>: sensor-fusion, motion planning, computer vision, point cloud to image reprojection
+<br>
+Developed a computer vision based solution to the multifaceted issue of failed picks in the pick and place pipeline to stow away the items that come into the Amazon warehouse. I investigated and analyzed the existing pipeline to pinpoint the problem, incorrectly perceived 3D geometry caused by “holes” of missing data. This occured due to occlusion, reflectance, and the scanning angle of the static multi-sensor workspace rig.
+Thus my solution pipeline addressed this problem by: <br>
+• Identifying and locating the holes through angle criterion<br>
+• Validation of missing data versus physical hole<br>
+• Prioritizing filling order and executing re-planned picking path for scanning<br>
+The solution implemented is a hybrid pipeline using a sensor mounted on the end-effector of the robot to fill in data after detecting and confirming the existence of an area with missing data from image and point cloud space.<br>  
+Implemented the static sensors camera rig and environmental constraints of as-is implementation on the workstation; designed and 3D printed end-of-arm sensor mount. Demonstrated integrated modular pipeline on physical system.<br>
+Also developed an alternate solution using classical techniques through PCL of surface reconstruction including triangulation, poisson reconstruction, voxel dilation etc; Pitched alternate solution for fitting shape primitives to approximate shape and used machine learning models to predict the geometry of the object.<br>
+
+<b>Software</b>: C/C++, ROS<br>
+<b>Hardware</b>: IntelRealsense D410, Ensenso, UR10<br>
+<b>Key Concepts</b>: sensor-fusion, motion planning, computer vision, point cloud to image reprojection
 </toggle_down><br> <br>
 
 
@@ -192,10 +192,70 @@ Worked on optimizing LED driver for housing more components or scaling down Snak
 </div>
 
 <div id="project">
-
+<h2>Projects</h2> 
 </div>
+<heading>18-578 Mechatronic Capstone Design: ShipBot </heading>
+<head_under>Team: David Bang, <b>Sara Misra</b>, Fiona Li, Haowen Shi, Bo Tian <span style="float:right;">Spring 2019</span></head_under>
+<a href="javascript:toggleblock('578_abs')" style="font-size:14px">abstract</a> |
+<a href="https://sites.google.com/view/cmu-jollyroger/home" style="font-size:14px">webpage</a> | 
+<a href="assets/files/TeamA_FinalReport.pdf" style="font-size: 14px">report</a> | 
+<a href="https://github.com/cmu-jollyroger" style="font-size:14px">code</a>
+<toggle_down id="578_abs">
+<br>
+For this project we built an autonomous robot that could autonomously manipulate a fixed set of 
+electro-mechanical devices such as different types of valves and breaker switches given some high-level commands.
+This project provides a proof-of-concept mechatronic device capable of operating 
+without modifying the existing human-operated devices reducing the cost of retrofitting autonomous navigation onto 
+long-distance ships. <br>
+I designed, developed and implemented the localization algorithm, identification of the electromechanical device to manipulate, mounted robotic manipulator arm kinematics and vision-based closed-loop motion planning. 
+Responsible for sensor placement and design of hardware chassis frame, as well as contributed to the cyber-physical and software system.
+<b>Software</b>: C/C++, XML, ROS<br>
+<b>Hardware</b>: We built the robot! <br>
+<b>Key Concepts</b>: autonomy, computer vision, arm kinematics, motion-planning, localization
+ </toggle_down>
 
+<br> <br>
 
+<heading>10-701 Semi-Supervised Learning for Classification </heading>
+<head_under>Team: Wenyu Huang, <b>Sara Misra</b>, Junyan Pu <span style="float:right;">Spring 2019</span></head_under>
+<a href="javascript:toggleblock('701_abs')" style="font-size:14px">abstract</a> | 
+<a href="assets/files/10_701_final_report.pdf" style="font-size: 14px">report</a> | 
+<a href="assets/files/10701 Poster Presentation_ Group 34.pdf" style="font-size: 14px">poster</a> 
+<toggle_down id="701_abs">
+<br>
+Challenge : <a href="https://www.kaggle.com/c/forest-cover-type-prediction">Forest Type Classification</a>
+<br>We predict the forest cover type of an area given cartographical features of the area using a semi-supervised approach to deal with the lack of labeled data. We explore multiple methods of semi-supervised learning, particularly the Naive Bayes and Expectation Maximization algorithm, S3VM, and co-training using neural networks.
+</toggle_down> <br> <br>
+
+<heading>16-720 Augmented Reality </heading>
+<head_under>Team: Naman Gupta, <b>Sara Misra</b>, Olivia Xu <span style="float:right;">Spring 2019</span></head_under>
+<a href="javascript:toggleblock('720_abs')" style="font-size:14px">abstract</a> | 
+<a href="assets/files/slides/16720 Augmented Reality.pptx" style="font-size: 14px">slides</a> | 
+<a href="https://github.com/saram1sra/16720_Augmented_Reality" style="font-size: 14px">code</a> 
+<toggle_down id="720_abs">
+<br>
+The project goal was to overlay a 3D wavefront obj model onto a video recorded using an iphone camera. This project is influenced by pokemon Go and how we can bring augmented reality to physical Pokemon playing cards. 
+</toggle_down> <br> <br>
+
+<heading>15-112 Interactive Interview Bot </heading>
+<head_under> <span style="float:right;">Nov 2016 – Dec 2016    </span></head_under>
+<a href="javascript:toggleblock('112_abs')" style="font-size:14px">abstract</a> | 
+<a href="assets/files/15112 Final Report.pdf" style="font-size: 14px">report</a> |
+<a href="https://www.youtube.com/watch?v=U7lLb5Ke5hE" style="font-size: 14px">video</a> |
+<a href="https://github.com/saram1sra/15112_InterviewBot" style="font-size: 14px">code</a>
+<toggle_down id="112_abs">
+<br>
+Developed an interactive Interview Bot to minimize human error and bias in interviewing candidates to  assess candidate personality and soft-skill fit for the applied position, replacing human interviewers for first-stage interviews. 
+<br>Utilizing IBM Watson’s AI, the system’s core was an Input-Process-Output-Feedback (Learn) control loop, bringing human-like cognition to machines which could be further developed by using machine learning algorithms.
+<br>Features: <br>
+• Voice-based interaction with the candidate  <br>
+• Analyzes the candidate responses to assess their 47 personality traits<br>
+• Supports 761 job positions from Researcher to DJ to assess candidates on<br>
+• Recommends jobs with best personality fit to the candidate       <br>                             	             
+<b>Software</b>: Python <br>
+<b>Frameworks</b>: IBM Watson, Google Text-to-Speech<br>
+
+</toggle_down> <br> <br>
 
 
 <!-- Init hideblock for toggle -->
@@ -219,4 +279,16 @@ Worked on optimizing LED driver for housing more components or scaling down Snak
 </script>
 <script xml:space="preserve" language="JavaScript">
         hideblock('sea_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+    hideblock('578_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+    hideblock('701_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+    hideblock('720_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+    hideblock('112_abs');
 </script>
