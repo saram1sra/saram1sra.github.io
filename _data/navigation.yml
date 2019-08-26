@@ -10,6 +10,6 @@ main:
     url:  /courses/
   - title: "Activities"
     url: /activities/
-  - title: "CV"
-    url: /
+  # - title: "CV"
+  #   url: /
 
